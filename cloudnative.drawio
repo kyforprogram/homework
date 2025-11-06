@@ -30,26 +30,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gtJBLbpS-TiDMv9X943t-1" value="JAVA&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;認証基盤&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="207" width="134" height="94" as="geometry" />
+        <mxCell id="gtJBLbpS-TiDMv9X943t-1" value="JAVA&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;認証基盤&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="207" width="134" height="212" as="geometry" />
         </mxCell>
         <mxCell id="gtJBLbpS-TiDMv9X943t-2" value="認可サーバ&lt;div&gt;Authlete&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="39" width="134" height="94" as="geometry" />
+          <mxGeometry x="420" y="39" width="134" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gtJBLbpS-TiDMv9X943t-3" value="サービス&lt;div&gt;A&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="98" y="207" width="134" height="94" as="geometry" />
+          <mxGeometry x="172" y="201" width="134" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gtJBLbpS-TiDMv9X943t-4" value="Idp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="568" y="207" width="134" height="94" as="geometry" />
+          <mxGeometry x="653" y="207" width="134" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gtJBLbpS-TiDMv9X943t-5" value="サービス&lt;br&gt;B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="98" y="336" width="134" height="94" as="geometry" />
+          <mxGeometry x="172" y="336" width="134" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gtJBLbpS-TiDMv9X943t-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gtJBLbpS-TiDMv9X943t-1" target="gtJBLbpS-TiDMv9X943t-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="518" y="321" as="sourcePoint" />
+            <mxPoint x="568" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtJBLbpS-TiDMv9X943t-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gtJBLbpS-TiDMv9X943t-3" target="gtJBLbpS-TiDMv9X943t-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="433" y="321" as="sourcePoint" />
             <mxPoint x="483" y="271" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gtJBLbpS-TiDMv9X943t-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gtJBLbpS-TiDMv9X943t-5" target="gtJBLbpS-TiDMv9X943t-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="286" as="sourcePoint" />
+            <mxPoint x="487" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gtJBLbpS-TiDMv9X943t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gtJBLbpS-TiDMv9X943t-11" target="gtJBLbpS-TiDMv9X943t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gtJBLbpS-TiDMv9X943t-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="28" y="218" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

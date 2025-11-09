@@ -106,20 +106,17 @@
             <mxPoint x="44.99999999999977" y="874" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-15" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="729" width="82" height="34" as="geometry" />
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-15" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;１．ユーザがサービスAでログインを行う&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32" y="729" width="760" height="34" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-16" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
           <mxGeometry x="16" y="880" width="100" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="cdkxhQfWZp8fQKrtPVVi-17" target="cdkxhQfWZp8fQKrtPVVi-5">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-17" value="MVC" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="509" y="887.5" width="113" height="55" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-18" value="Login" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.login;" vertex="1" parent="1">
-          <mxGeometry x="218" y="880" width="120" height="70" as="geometry" />
+          <mxGeometry x="218" y="863" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-22" value="JAVA&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;認証基盤&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="457" y="1472" width="217" height="445" as="geometry" />
@@ -128,7 +125,7 @@
           <mxGeometry x="498.5" y="1792" width="134" height="94" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-24" value="サービス&lt;div&gt;A&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="211" y="1490" width="134" height="176" as="geometry" />
+          <mxGeometry x="211" y="1538" width="134" height="176" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-25" value="Idp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="689" y="1531" width="134" height="94" as="geometry" />
@@ -136,25 +133,68 @@
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-26" value="サービス&lt;br&gt;B" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="209" y="1734" width="134" height="176" as="geometry" />
         </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="cdkxhQfWZp8fQKrtPVVi-29" target="cdkxhQfWZp8fQKrtPVVi-24" parent="1">
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="cdkxhQfWZp8fQKrtPVVi-29" target="cdkxhQfWZp8fQKrtPVVi-22" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="44.99999999999977" y="1537" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="157" y="1578" />
+              <mxPoint x="157" y="1493" />
+              <mxPoint x="402" y="1493" />
+              <mxPoint x="402" y="1583" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-28" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;２認証要求が&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-28" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;２．サービスは認証基盤に認可委任する（サービス側で認証処理しない）&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="32" y="1402" width="732" height="34" as="geometry" />
         </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-29" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
           <mxGeometry x="16" y="1543" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" source="cdkxhQfWZp8fQKrtPVVi-31" target="cdkxhQfWZp8fQKrtPVVi-23" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cdkxhQfWZp8fQKrtPVVi-31" value="MVC" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="509" y="1550.5" width="113" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="cdkxhQfWZp8fQKrtPVVi-32" value="Login" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.login;" vertex="1" parent="1">
-          <mxGeometry x="218" y="1543" width="120" height="70" as="geometry" />
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-34" value="JAVA&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;認証基盤&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="457" y="2095" width="217" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-35" value="認可サーバ&lt;div&gt;Authlete&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498.5" y="2415" width="134" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-36" value="サービス&lt;div&gt;A&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="211" y="2161" width="134" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-37" value="Idp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689" y="2154" width="134" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-38" value="サービス&lt;br&gt;B" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="209" y="2357" width="134" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" source="cdkxhQfWZp8fQKrtPVVi-41" target="cdkxhQfWZp8fQKrtPVVi-34" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44.99999999999977" y="2160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="157" y="2201" />
+              <mxPoint x="157" y="2116" />
+              <mxPoint x="402" y="2116" />
+              <mxPoint x="402" y="2206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-44" value="&lt;span style=&quot;color: rgb(245, 158, 11); font-family: monospace; font-size: 14px; text-align: start; text-wrap-mode: wrap; background-color: rgb(17, 24, 39);&quot;&gt;/auth/authorization&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cdkxhQfWZp8fQKrtPVVi-39">
+          <mxGeometry x="-0.1633" y="4" relative="1" as="geometry">
+            <mxPoint x="30" y="-618" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-40" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;３．&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32" y="2025" width="732" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-41" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="16" y="2166" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" source="cdkxhQfWZp8fQKrtPVVi-43" target="cdkxhQfWZp8fQKrtPVVi-35" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdkxhQfWZp8fQKrtPVVi-43" value="MVC" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="509" y="2173.5" width="113" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

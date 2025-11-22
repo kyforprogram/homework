@@ -131,7 +131,7 @@
           <mxGeometry height="60" width="120" x="-331" y="143" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="認証&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;認可サーバ&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-33.5" y="143" as="geometry" />
+          <mxGeometry height="60" width="120" x="15" y="146" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="リソースオーナ" vertex="1">
           <mxGeometry height="60" width="120" x="-599" y="143" as="geometry" />
@@ -140,13 +140,16 @@
           <mxGeometry height="60" width="120" x="454" y="143" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="mongo db&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;会員情報&lt;/div&gt;" vertex="1">
-          <mxGeometry height="151" width="149" x="261" y="512" as="geometry" />
+          <mxGeometry height="151" width="149" x="264" y="277" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ポイント照会基盤" vertex="1">
           <mxGeometry height="94" width="134" x="446" y="673" as="geometry" />
         </mxCell>
+        <mxCell id="-wWP_ZOXnCh_v8vzVgpl-23" edge="1" parent="1" source="aUIt6mhWphPYhcxGDD3j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="cdkxhQfWZp8fQKrtPVVi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;セッション保存&lt;/div&gt;" vertex="1">
-          <mxGeometry height="108" width="149" x="261" y="425" as="geometry" />
+          <mxGeometry height="93" width="104" x="117" y="563" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-14" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" value="" vertex="1">
           <mxGeometry height="167" width="263" x="-673" y="237.5" as="geometry" />

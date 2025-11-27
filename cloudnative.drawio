@@ -139,17 +139,17 @@
         <mxCell id="aUIt6mhWphPYhcxGDD3j-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="リソースサーバ" vertex="1">
           <mxGeometry height="60" width="120" x="454" y="143" as="geometry" />
         </mxCell>
-        <mxCell id="aUIt6mhWphPYhcxGDD3j-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="mongo db&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;会員情報&lt;/div&gt;" vertex="1">
-          <mxGeometry height="151" width="149" x="264" y="277" as="geometry" />
+        <mxCell id="aUIt6mhWphPYhcxGDD3j-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="mongo db&lt;div&gt;セッション&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="102" x="-24.5" y="580" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ポイント照会基盤" vertex="1">
           <mxGeometry height="94" width="134" x="446" y="673" as="geometry" />
         </mxCell>
-        <mxCell id="-wWP_ZOXnCh_v8vzVgpl-23" edge="1" parent="1" source="aUIt6mhWphPYhcxGDD3j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="cdkxhQfWZp8fQKrtPVVi-5">
+        <mxCell id="BWE_SUCdUESzc8O9L6AV-3" edge="1" parent="1" source="aUIt6mhWphPYhcxGDD3j-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-wWP_ZOXnCh_v8vzVgpl-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aUIt6mhWphPYhcxGDD3j-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="&lt;div&gt;redis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;セッション保存&lt;/div&gt;" vertex="1">
-          <mxGeometry height="93" width="104" x="117" y="563" as="geometry" />
+        <mxCell id="aUIt6mhWphPYhcxGDD3j-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="&lt;div&gt;Postgre&lt;/div&gt;&lt;div&gt;会員&lt;/div&gt;" vertex="1">
+          <mxGeometry height="93" width="104" x="273" y="577" as="geometry" />
         </mxCell>
         <mxCell id="aUIt6mhWphPYhcxGDD3j-14" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" value="" vertex="1">
           <mxGeometry height="167" width="263" x="-673" y="237.5" as="geometry" />
@@ -231,6 +231,12 @@
         </mxCell>
         <mxCell id="BWE_SUCdUESzc8O9L6AV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ory Hydra" vertex="1">
           <mxGeometry height="50" width="88" x="125" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="BWE_SUCdUESzc8O9L6AV-2" edge="1" parent="1" source="aUIt6mhWphPYhcxGDD3j-6" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="-wWP_ZOXnCh_v8vzVgpl-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="17" y="548" as="sourcePoint" />
+            <mxPoint x="67" y="498" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

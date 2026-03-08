@@ -490,12 +490,6 @@
         <mxCell id="4l1laqjDOP0jBBtYxeSE-14" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.router;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
           <mxGeometry height="72" width="69" x="271" y="255" as="geometry" />
         </mxCell>
-        <mxCell id="4l1laqjDOP0jBBtYxeSE-15" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.router;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="72" width="69" x="271" y="427" as="geometry" />
-        </mxCell>
-        <mxCell id="4l1laqjDOP0jBBtYxeSE-16" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.router;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="72" width="69" x="271" y="585" as="geometry" />
-        </mxCell>
         <mxCell id="4l1laqjDOP0jBBtYxeSE-17" edge="1" parent="1" source="4l1laqjDOP0jBBtYxeSE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="4l1laqjDOP0jBBtYxeSE-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
